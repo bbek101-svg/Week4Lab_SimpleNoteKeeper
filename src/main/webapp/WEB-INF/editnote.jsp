@@ -14,8 +14,15 @@
     <body>
         <h1>Edit Note</h1>
         <form action="note" method="POST">
-            <input type="text" name="title" id="title" placeholder="Title">
-            <input type="text" name="contents" id="contents" placeholder="Contents">
+            <div class ="title">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" value='${title}'  placeholder="Title">
+            </div>
+            <div class="contents">
+                <label for="contents">Contents</label>
+                <input type="textarea" name="contents" value='${contents}'  id="contents" placeholder="Contents">
+            </div>
+            
             <button type="submit">Submit</button>
         </form>
     </body>
