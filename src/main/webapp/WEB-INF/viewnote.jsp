@@ -13,8 +13,8 @@
     </head>
     <body>
         <h1>View Note</h1>
-        <p> Title: </p>
-        <p> Contents: </p>
-        <a href ="#">Edit Note</a>
+        <p> Title: ${note.title}</p>
+        <p> Contents: ${note.contents}</p>
+        <a href ="note?edit=true">Edit Note</a>
     </body>
 </html>
